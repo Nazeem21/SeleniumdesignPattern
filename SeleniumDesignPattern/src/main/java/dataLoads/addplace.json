@@ -1,0 +1,14 @@
+[
+    {
+      "origin": "CJB",
+      "destination": "HYD",
+      "origin1": "BLR",
+      "destination1": "AMD"
+    },
+    {
+      "origin": "MAA",
+      "destination": "BLR",
+      "origin1": "HYD",
+      "destination1": "CJB"
+    }
+  ]

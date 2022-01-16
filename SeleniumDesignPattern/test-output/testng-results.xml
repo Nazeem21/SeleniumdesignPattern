@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="120106" started-at="2022-01-14T15:54:40Z" finished-at="2022-01-14T15:56:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="120106" started-at="2022-01-14T15:54:40Z" finished-at="2022-01-14T15:56:40Z">
+      <class name="Framwork.SeleniumFramework.DemoTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Framwork.SeleniumFramework.DemoTest@69b2283a]" name="setup" is-config="true" duration-ms="63019" started-at="2022-01-14T21:24:40Z" finished-at="2022-01-14T21:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="flighttest(java.util.HashMap)[pri:0, instance:Framwork.SeleniumFramework.DemoTest@69b2283a]" name="flighttest" duration-ms="42350" started-at="2022-01-14T21:25:47Z" data-provider="getdata" finished-at="2022-01-14T21:26:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination1=AMD, origin=CJB, destination=HYD, origin1=BLR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flighttest -->
+        <test-method status="PASS" signature="flighttest(java.util.HashMap)[pri:0, instance:Framwork.SeleniumFramework.DemoTest@69b2283a]" name="flighttest" duration-ms="5587" started-at="2022-01-14T21:26:30Z" data-provider="getdata" finished-at="2022-01-14T21:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination1=CJB, origin=MAA, destination=BLR, origin1=HYD}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flighttest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Framwork.SeleniumFramework.DemoTest@69b2283a]" name="teardown" is-config="true" duration-ms="4313" started-at="2022-01-14T21:26:35Z" finished-at="2022-01-14T21:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Framwork.SeleniumFramework.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
